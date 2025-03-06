@@ -1,0 +1,42 @@
+public class Main {
+    public static void main(String[] args) {
+
+        /** TODO 2: Create an object of the SideKick class named "sideKickObject" **/
+            SideKick sidekick= new SideKick();
+
+    
+
+        /** TODO 6: Display the current value of the property "modeOfOperation"  of the object
+         *         "sideKickObject" within a println() using the getter method of the object
+         *         you created in TODO 5
+         **/
+            System.out.println("This is modeOfOperation"+ sidekick.getModeOfOperation());
+
+        /** TODO 9: Set the value of the property "modeOfOperation" of the object
+         *        "sideKickObject", using the setter you created in TODO 8, to a
+         *        a value of 3
+         **/
+            sidekick.setModeOfOperation(3);
+
+        /** TODO 10: Call the method takeAction() of the object "sideKickObject" **/
+            sidekick.takeAction();
+        /** TODO 12: Set the value of the property "modeOfOperation" of the object
+         *          "sideKickObject to a value of 1
+         *           using the setter method you created in TODO 7 and TODO 8.
+         *           After that is done, call the method takeAction() using object
+         *           "sideKickObject" and the dot operator.
+         **/
+        sidekick.setModeOfOperation(1);
+        sidekick.takeAction();
+
+        /** TODO 15: Set the value of the property "modeOfOperation" of the object
+         *          "sideKickObject to a value of 2
+         *           using the setter method you created in TODO 7 and TODO 8.
+         *           After that is done, call the method takeAction() using object
+         *           "sideKickObject" and the dot operator.
+         **/
+        sidekick.setModeOfOperation(2);
+        sidekick.takeAction();
+        
+    }
+}
